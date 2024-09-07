@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypt & Decrypt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encrypt and Decrypt</h1>
+
+        <div class="section">
+            <h2>Encrypt</h2>
+            <textarea id="encryptInput" placeholder="Enter text to encrypt"></textarea>
+            <button onclick="encrypt()">Encrypt</button>
+            <textarea id="encryptOutput" readonly placeholder="Encrypted text"></textarea>
+        </div>
+
+        <div class="section">
+            <h2>Decrypt</h2>
+            <textarea id="decryptInput" placeholder="Enter text to decrypt"></textarea>
+            <button onclick="decrypt()">Decrypt</button>
+            <textarea id="decryptOutput" readonly placeholder="Decrypted text"></textarea>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
